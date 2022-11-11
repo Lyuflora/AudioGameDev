@@ -99,8 +99,8 @@
 56-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-44
 57            android:resizeableActivity="false"
 57-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-47
-58            android:screenOrientation="fullUser"
-58-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-49
+58            android:screenOrientation="landscape"
+58-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-50
 59            android:theme="@style/UnityThemeSelector" >
 59-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-54
 60            <intent-filter>

@@ -127,7 +127,7 @@ ADDED from [:unityLibrary] E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\Bee
 activity#com.unity3d.player.UnityPlayerActivity
 ADDED from [:unityLibrary] E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:9-54:20
 	android:screenOrientation
-		ADDED from [:unityLibrary] E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-49
+		ADDED from [:unityLibrary] E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-50
 	android:launchMode
 		ADDED from [:unityLibrary] E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-44
 	android:hardwareAccelerated

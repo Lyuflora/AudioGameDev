@@ -2,6 +2,7 @@
 -a="E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\PlayerScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll"
 -a="E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\PlayerScriptAssemblies\Unity.Services.Core.Telemetry.dll"
 -a="E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\PlayerScriptAssemblies\Unity.Services.Core.Networking.dll"
+-a="E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\PlayerScriptAssemblies\Unity.InputSystem.dll"
 -a="E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\PlayerScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll"
 -a="E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\PlayerScriptAssemblies\Unity.Services.Core.Internal.dll"
 -a="E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\PlayerScriptAssemblies\UnityEngine.SpatialTracking.dll"

@@ -66,15 +66,15 @@
 38            android:name="com.unity3d.player.UnityPlayerActivity"
 38-->E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
 39            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-39-->E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:180-361
+39-->E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:181-362
 40            android:hardwareAccelerated="false"
-40-->E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:397-432
+40-->E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:398-433
 41            android:launchMode="singleTask"
-41-->E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:148-179
+41-->E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:149-180
 42            android:resizeableActivity="false"
-42-->E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:362-396
-43            android:screenOrientation="fullUser"
-43-->E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-147
+42-->E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:363-397
+43            android:screenOrientation="landscape"
+43-->E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-148
 44            android:theme="@style/UnityThemeSelector" >
 44-->E:\Github\SchoolWork\AudioGameDev\AudioAR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
 45            <intent-filter>
