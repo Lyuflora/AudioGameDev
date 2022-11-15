@@ -50,7 +50,6 @@ public class CrossHair : MonoBehaviour
         Vector2 inputVector = kc.Player.Move.ReadValue<Vector2>();
         rb.velocity = inputVector * speed;
 
-        ARDebugManager.Instance.LogInfo(inputVector.ToString());
     }
 
     private void LateUpdate()
