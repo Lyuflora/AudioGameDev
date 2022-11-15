@@ -37,7 +37,8 @@ public class RaycastEvents : MonoBehaviour
     {
         if (collider.gameObject.GetComponent<Interactable>()) {
             rayHitStart = Time.time;
-            Debug.Log("Hover Interactable");
+            Interactable interactable = collider.gameObject.GetComponent<Interactable>();
+            interactable.Hover();
         }
     }
 
@@ -49,8 +50,9 @@ public class RaycastEvents : MonoBehaviour
             if (Time.time - rayHitStart > 3f && isHearing == false)
             {
                 // Object has been hit for five seconds - do something!
-                Debug.Log("Hover Long");
                 isHearing = true;
+                Interactable interactable = collider.gameObject.GetComponent<Interactable>();
+                interactable.Focus();
             }
         }
 
