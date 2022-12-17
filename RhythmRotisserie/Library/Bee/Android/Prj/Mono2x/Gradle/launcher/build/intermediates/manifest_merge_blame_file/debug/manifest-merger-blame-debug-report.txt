@@ -1,0 +1,186 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ArisGames.RhythmRotisserie"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.2" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+9-->E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-54
+19-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:19-51
+20
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-67
+21-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:22-64
+22    <uses-permission android:name="android.permission.VIBRATE" />
+22-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-66
+22-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:22-63
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-79
+23-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:22-76
+24
+25    <uses-feature
+25-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-20:36
+26        android:name="android.hardware.touchscreen"
+26-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:9-52
+27        android:required="false" />
+27-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:9-33
+28    <uses-feature
+28-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:5-23:36
+29        android:name="android.hardware.touchscreen.multitouch"
+29-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-63
+30        android:required="false" />
+30-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-33
+31    <uses-feature
+31-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:5-26:36
+32        android:name="android.hardware.touchscreen.multitouch.distinct"
+32-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-72
+33        android:required="false" />
+33-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:9-33
+34
+35    <uses-permission android:name="android.permission.CAMERA" />
+35-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:5-65
+35-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:22-62
+36
+37    <uses-feature
+37-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:5-32:35
+38        android:name="android.hardware.camera.ar"
+38-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:9-50
+39        android:required="true" />
+39-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:9-32
+40    <uses-feature
+40-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:5-35:35
+41        android:name="com.google.ar.core.depth"
+41-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:9-48
+42        android:required="true" />
+42-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:9-32
+43
+44    <queries>
+44-->[:arcore_client:] C:\Users\LyuKY\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:29:5-31:15
+45        <package android:name="com.google.ar.core" />
+45-->[:arcore_client:] C:\Users\LyuKY\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:30:9-54
+45-->[:arcore_client:] C:\Users\LyuKY\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:30:18-51
+46    </queries>
+47
+48    <application
+48-->E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
+49        android:debuggable="true"
+50        android:extractNativeLibs="true"
+50-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:18-50
+51        android:icon="@mipmap/app_icon"
+51-->E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+52        android:label="@string/app_name" >
+52-->E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+53        <activity
+53-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:9-55:20
+54            android:name="com.unity3d.player.UnityPlayerActivity"
+54-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-66
+55            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+55-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-194
+56            android:hardwareAccelerated="false"
+56-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-48
+57            android:launchMode="singleTask"
+57-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-44
+58            android:resizeableActivity="false"
+58-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-47
+59            android:screenOrientation="landscape"
+59-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-50
+60            android:theme="@style/UnityThemeSelector" >
+60-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-54
+61            <intent-filter>
+61-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-50:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:17-69
+62-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:17-77
+64-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:27-74
+65            </intent-filter>
+66
+67            <meta-data
+67-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:13-54:40
+68                android:name="unityplayer.UnityActivity"
+68-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:17-57
+69                android:value="true" />
+69-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:17-37
+70        </activity>
+71
+72        <meta-data
+72-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:9-59:33
+73            android:name="unity.splash-mode"
+73-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:13-45
+74            android:value="0" />
+74-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:13-30
+75        <meta-data
+75-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:9-62:36
+76            android:name="unity.splash-enable"
+76-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:61:13-47
+77            android:value="True" />
+77-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:13-33
+78        <meta-data
+78-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:9-65:36
+79            android:name="unity.launch-fullscreen"
+79-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:13-51
+80            android:value="True" />
+80-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:13-33
+81        <meta-data
+81-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:66:9-68:37
+82            android:name="unity.allow-resizable-window"
+82-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:67:13-56
+83            android:value="False" />
+83-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:13-34
+84        <meta-data
+84-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:9-71:36
+85            android:name="unityplayer.SkipPermissionsDialog"
+85-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:13-61
+86            android:value="true" />
+86-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:71:13-33
+87        <meta-data
+87-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:9-74:40
+88            android:name="com.google.ar.core"
+88-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:73:13-46
+89            android:value="required" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+89-->[:unityLibrary] E:\Github\SchoolWork\AudioGameDev\RhythmRotisserie\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:13-37
+90        <meta-data
+90-->[:arcore_client:] C:\Users\LyuKY\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:36:9-38:41
+91            android:name="com.google.ar.core.min_apk_version"
+91-->[:arcore_client:] C:\Users\LyuKY\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:37:13-62
+92            android:value="210910000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+92-->[:arcore_client:] C:\Users\LyuKY\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:38:13-38
+93        <activity
+93-->[:arcore_client:] C:\Users\LyuKY\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:40:9-46:80
+94            android:name="com.google.ar.core.InstallActivity"
+94-->[:arcore_client:] C:\Users\LyuKY\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:41:13-62
+95            android:configChanges="keyboardHidden|orientation|screenSize"
+95-->[:arcore_client:] C:\Users\LyuKY\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:42:13-74
+96            android:excludeFromRecents="true"
+96-->[:arcore_client:] C:\Users\LyuKY\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:43:13-46
+97            android:exported="false"
+97-->[:arcore_client:] C:\Users\LyuKY\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:44:13-37
+98            android:launchMode="singleTop"
+98-->[:arcore_client:] C:\Users\LyuKY\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:45:13-43
+99            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+99-->[:arcore_client:] C:\Users\LyuKY\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:46:13-77
+100    </application>
+101
+102</manifest>

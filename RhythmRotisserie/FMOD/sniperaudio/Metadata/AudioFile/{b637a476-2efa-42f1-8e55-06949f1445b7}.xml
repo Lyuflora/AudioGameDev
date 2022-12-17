@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{b637a476-2efa-42f1-8e55-06949f1445b7}">
+		<property name="assetPath">
+			<value>Sounds/bbq/Barbecue 6044_44_preview.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>59.898775510204082</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{26e4da42-7b0d-4e17-b687-31d5078a61d3}</destination>
+		</relationship>
+	</object>
+</objects>

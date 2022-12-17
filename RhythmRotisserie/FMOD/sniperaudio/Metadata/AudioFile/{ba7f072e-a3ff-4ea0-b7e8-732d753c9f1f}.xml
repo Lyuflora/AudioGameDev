@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{ba7f072e-a3ff-4ea0-b7e8-732d753c9f1f}">
+		<property name="assetPath">
+			<value>BBQ_Error.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.8458049886621315</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{26e4da42-7b0d-4e17-b687-31d5078a61d3}</destination>
+		</relationship>
+	</object>
+</objects>

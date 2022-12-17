@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{59cbac82-80bb-4fad-8b41-ae7bc909a734}">
+		<property name="assetPath">
+			<value>Sounds/bbq/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{26e4da42-7b0d-4e17-b687-31d5078a61d3}</destination>
+		</relationship>
+	</object>
+</objects>

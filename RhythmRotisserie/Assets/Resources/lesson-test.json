@@ -1,0 +1,19 @@
+{
+  "jsonBeatList": [
+    {
+      "Time": 1,
+      "Name": "PlayBeat1",
+      "EventListener": "TestBeat"
+    },
+    {
+      "Time": 2,
+      "Name": "PlayBeat2",
+      "EventListener": "TestBeat"
+    },
+    {
+      "Time": 5,
+      "Name": "PlayBeatPattern1",
+      "EventListener": "TestPattern"
+    }
+  ]
+}

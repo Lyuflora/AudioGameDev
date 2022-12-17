@@ -1,0 +1,398 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8114003406752369942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Beats/Level0
+  m_EditorClassIdentifier: 
+  Path: event:/Beats/Level0
+  Guid:
+    Data1: -525239932
+    Data2: 1087067108
+    Data3: -2080537716
+    Data4: -420095594
+  Banks:
+  - {fileID: -7604679036245502775}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 65488
+--- !u!114 &-7930595567046037099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SingleBeat/InstrumentsType
+  m_EditorClassIdentifier: 
+  Name: InstrumentsType
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 75058731
+    data2: 802778939
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-7604679036245502775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/sniperaudio/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638067168294389695
+  FileSizes:
+  - Name: Desktop
+    Value: 5491488
+  Exists: 1
+--- !u!114 &-4362894474462201173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BBQ/MainMusic 2
+  m_EditorClassIdentifier: 
+  Path: event:/BBQ/MainMusic 2
+  Guid:
+    Data1: -594116049
+    Data2: 1298252965
+    Data3: -1985602393
+    Data4: 303466993
+  Banks:
+  - {fileID: -7604679036245502775}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 65250
+--- !u!114 &-4308204623115412653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BBQ/BBQStart
+  m_EditorClassIdentifier: 
+  Path: event:/BBQ/BBQStart
+  Guid:
+    Data1: -674301439
+    Data2: 1244529453
+    Data3: 1262802578
+    Data4: -1824847768
+  Banks:
+  - {fileID: -7604679036245502775}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7000
+--- !u!114 &-3991721762351770131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/sniperaudio/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638067168294409572
+  FileSizes:
+  - Name: Desktop
+    Value: 1266
+  Exists: 1
+--- !u!114 &-3341956435002303234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BBQ/Fail
+  m_EditorClassIdentifier: 
+  Path: event:/BBQ/Fail
+  Guid:
+    Data1: -219848538
+    Data2: 1158488120
+    Data3: 713020337
+    Data4: 1578958219
+  Banks:
+  - {fileID: -7604679036245502775}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2142
+--- !u!114 &-2382949082115159872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BBQ/Warning
+  m_EditorClassIdentifier: 
+  Path: event:/BBQ/Warning
+  Guid:
+    Data1: -1109399471
+    Data2: 1207810073
+    Data3: -771444045
+    Data4: 1654299553
+  Banks:
+  - {fileID: -7604679036245502775}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 220
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -3991721762351770131}
+  - {fileID: -7604679036245502775}
+  EditorEvents:
+  - {fileID: 6953440038106883410}
+  - {fileID: 7833304196179008067}
+  - {fileID: -4308204623115412653}
+  - {fileID: -8114003406752369942}
+  - {fileID: -2382949082115159872}
+  - {fileID: 1668098836661122596}
+  - {fileID: -4362894474462201173}
+  - {fileID: 915502756541946997}
+  - {fileID: 392462504655448618}
+  - {fileID: -3341956435002303234}
+  - {fileID: 4363057672406646729}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -7604679036245502775}
+  StringsBanks:
+  - {fileID: -3991721762351770131}
+  cacheTime: 638067168294409572
+  cacheVersion: 131593
+--- !u!114 &392462504655448618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BBQ/MainMusic Rabbit
+  m_EditorClassIdentifier: 
+  Path: event:/BBQ/MainMusic Rabbit
+  Guid:
+    Data1: -61581878
+    Data2: 1147186690
+    Data3: 1176885936
+    Data4: 1702565612
+  Banks:
+  - {fileID: -7604679036245502775}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 83704
+--- !u!114 &915502756541946997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BBQ/NB
+  m_EditorClassIdentifier: 
+  Path: event:/BBQ/NB
+  Guid:
+    Data1: -1433289735
+    Data2: 1304035572
+    Data3: -929312328
+    Data4: 1891388571
+  Banks:
+  - {fileID: -7604679036245502775}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4738
+--- !u!114 &1668098836661122596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BBQ/MainMusic
+  m_EditorClassIdentifier: 
+  Path: event:/BBQ/MainMusic
+  Guid:
+    Data1: -1129025289
+    Data2: 1276741225
+    Data3: 404037783
+    Data4: -727875035
+  Banks:
+  - {fileID: -7604679036245502775}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 142500
+--- !u!114 &4363057672406646729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BBQ/Correct
+  m_EditorClassIdentifier: 
+  Path: event:/BBQ/Correct
+  Guid:
+    Data1: 1872985222
+    Data2: 1227267999
+    Data3: -142433124
+    Data4: -295251656
+  Banks:
+  - {fileID: -7604679036245502775}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 449
+--- !u!114 &6953440038106883410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BBQ/MeatStart
+  m_EditorClassIdentifier: 
+  Path: event:/BBQ/MeatStart
+  Guid:
+    Data1: 1986715667
+    Data2: 1164627473
+    Data3: 1138105277
+    Data4: 226667336
+  Banks:
+  - {fileID: -7604679036245502775}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1400
+--- !u!114 &7833304196179008067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Beats/SingleBeat
+  m_EditorClassIdentifier: 
+  Path: event:/Beats/SingleBeat
+  Guid:
+    Data1: 975124320
+    Data2: 1090682942
+    Data3: -2078070131
+    Data4: -1129617825
+  Banks:
+  - {fileID: -7604679036245502775}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -7930595567046037099}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 505
